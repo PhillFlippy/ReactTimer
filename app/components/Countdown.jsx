@@ -1,12 +1,13 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+var Clock = require('Clock');
 
 
 
 var Countdown = (props) => {
   return(<div>
 
-      Countdown component!
+      <Clock totalSecs={150} />
     </div>
   );
 };
