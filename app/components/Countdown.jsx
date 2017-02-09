@@ -64,9 +64,9 @@ handleStatusChange: function(newStatus) {
     };
     return(
       <div>
-
-      <Clock totalSecs={count} />
-      {renderControlArea()}
+        <h1 className="heading">Countdown</h1>
+        <Clock totalSecs={count} />
+        {renderControlArea()}
     </div>
   );
 }
